@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSGM LTD | Global Trade & Logistics</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("menu-toggle");
+        const nav = document.getElementById("nav-links");
+
+        toggle.addEventListener("click", function () {
+            nav.classList.toggle("active");
+            toggle.classList.toggle("open");
+        });
+    });
+</script>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">HSGM LTD</div>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#company">Company</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Global Trade. Freight. Professional Services.</h1>
+            <p>Connecting markets with efficiency, precision and reliability.</p>
+            <a href="#about" class="btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About HSGM LTD</h2>
+            <p>
+                Established in 2020, HSGM LTD is a UK-based private limited company
+                operating across international trade, freight transport, and
+                professional consultancy services. We focus on building long-term
+                commercial partnerships while delivering reliable logistics and
+                trading solutions worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section alt">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Textile & Clothing Trade</h3>
+                    <p>Agents involved in textiles, footwear and leather goods sales.</p>
+                </div>
+                <div class="card">
+                    <h3>Sea Freight</h3>
+                    <p>Reliable sea and coastal freight transport solutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Air Freight</h3>
+                    <p>Efficient global air cargo and logistics management.</p>
+                </div>
+                <div class="card">
+                    <h3>Professional Services</h3>
+                    <p>Specialised professional and technical consultancy activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Info -->
+    <section id="company" class="section">
+        <div class="container">
+            <h2>Company Information</h2>
+            <div class="info-grid">
+                <div><strong>Info</strong>
+                    <p>To be added</p>
+                </div>
+                <div><strong>Info</strong>
+                    <p>To be added</p>
+                </div>
+                <div><strong>Info</strong>
+                    <p>To be added</p>
+                </div>
+                <div><strong>Info</strong>
+                    <p>To be added</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership -->
+    <section id="leadership" class="section alt">
+        <div class="container">
+            <h2>Leadership</h2>
+            <p><strong>Director:</strong> Habeeb Adeshina Ishola Gbajabiamila</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 HSGM LTD | Company No. 13030522 | Registered in England & Wales</p>
+    </footer>
+
+</body>
+
+</html>
